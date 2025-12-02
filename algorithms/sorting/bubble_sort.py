@@ -38,6 +38,13 @@ def bubble_sort(arr: list[int], method: Literal['classic', 'optimized'] = 'class
     
     Returns:
     - The sorted list of integers.
+    
+    Observations:
+    - Time Complexity (Classic): O(n^2) in all cases.
+    - Time Complexity (Optimized): O(n^2) in the worst case, O(n) in the best case.
+    - Space Complexity: O(1)
+    - Stable: Yes
+    - In-Place: Yes
     """
    
     if method not in ["classic", "optimized"]:

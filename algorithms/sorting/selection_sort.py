@@ -9,6 +9,12 @@ def selection_sort(arr: list[int]) -> list[int]:
     
     Returns:
     - The sorted list of integers.
+    
+    Observations:
+    - Time Complexity: O(n^2) in all cases.
+    - Space Complexity: O(1)
+    - Stable: No
+    - In-Place: Yes
     """
     
     arr_size = len(arr)
